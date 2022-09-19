@@ -1,0 +1,13 @@
+version: '2.1'
+
+services:
+   db:
+      image: "registry.redhat.io/rhscl/postgresql-10-rhel7:latest"
+      hostname: psql
+      port:
+         - "5432:5432"
+      environment:
+         POSTGRESQL_USER: postgres
+         POSTGRESQL_PASSWORD: Pa$$w0rd
+         POSTGRESQL_DATABASE: todo
+         POSTGRESQL_ADMIN_PASSWORD: Pa$$w0rd

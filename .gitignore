@@ -1,0 +1,8 @@
+
+.metadata/*
+*/.classpath
+*.prefs
+*/target
+*/.project
+*/.idea/*
+*/.mvn/*
